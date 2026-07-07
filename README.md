@@ -171,12 +171,6 @@ suite runs fully offline and fast — no GPU, network, or API key required.
 
 ## Future Improvements
 
-Implemented in this version:
-- ~~Cross-encoder reranking stage after initial retrieval~~ — done, see `retrievers/reranker.py`
-- ~~Conversation memory for multi-turn clinical Q&A~~ — done, via LangGraph checkpointer
-- ~~LangGraph-based multi-step reasoning workflows~~ — done, see `agents/clinical_agent.py`
-
-Still open:
 - Full production-grade hybrid BM25 + dense fusion weight tuning (the mechanism exists in
   `hybrid_retriever.py`; weights are currently static)
 - Redis-backed checkpointer/caching for agent memory and rate limiting (currently in-memory,
@@ -185,9 +179,4 @@ Still open:
 - Semantic chunking (interface already isolated in `IndexingService._split_documents`)
 - Prometheus metrics exporter in place of the current in-memory `/metrics`
 
-## Screenshots
 
-_Add screenshots of the `/docs` OpenAPI UI and example `/analyze` responses here._
-
-`docs/screenshot-openapi.png`
-`docs/screenshot-analyze-response.png`
