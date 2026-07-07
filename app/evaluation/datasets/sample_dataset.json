@@ -1,0 +1,43 @@
+[
+  {
+    "question": "What is the recommended antibiotic treatment for children with fast breathing pneumonia and no chest indrawing or general danger sign?",
+    "ground_truth": "Oral amoxicillin at least 40 mg/kg/dose twice daily (80 mg/kg/day) for five days. In areas with low HIV prevalence, amoxicillin can be given for three days instead of five.",
+    "relevant_ids": ["doc_1"]
+  },
+  {
+    "question": "How should children aged 2-59 months with chest indrawing pneumonia be treated according to the revised WHO guidelines?",
+    "ground_truth": "They should be treated with oral amoxicillin at least 40 mg/kg/dose twice daily (80 mg/kg/day) for five days, rather than referral for injectable antibiotics as in the previous guidelines.",
+    "relevant_ids": ["doc_2"]
+  },
+  {
+    "question": "What is the first-line treatment for children aged 2-59 months with severe pneumonia?",
+    "ground_truth": "Parenteral ampicillin (or benzyl penicillin) plus gentamicin as first-line treatment: ampicillin 50 mg/kg or benzyl penicillin 50,000 units/kg IM/IV every 6 hours for at least five days, plus gentamicin 7.5 mg/kg IM/IV once daily for at least five days. Ceftriaxone is used as second-line treatment if first-line treatment fails.",
+    "relevant_ids": ["doc_3"]
+  },
+  {
+    "question": "What antibiotic regimen is recommended for HIV-infected or HIV-exposed infants with chest indrawing or severe pneumonia?",
+    "ground_truth": "Ampicillin (or penicillin when ampicillin is unavailable) plus gentamicin, or ceftriaxone, as first-line treatment. If there is no response to ampicillin/penicillin plus gentamicin, ceftriaxone alone is recommended as second-line treatment.",
+    "relevant_ids": ["doc_4"]
+  },
+  {
+    "question": "When is empiric cotrimoxazole treatment recommended for suspected Pneumocystis jirovecii pneumonia (PCP) in children?",
+    "ground_truth": "Empiric cotrimoxazole is recommended as additional treatment for HIV-infected and HIV-exposed infants aged 2 months up to 1 year with chest indrawing or severe pneumonia. It is not recommended for HIV-infected or HIV-exposed children over 1 year of age with chest indrawing or severe pneumonia.",
+    "relevant_ids": ["doc_5"]
+  },
+  {
+    "question": "What general danger signs classify a child's pneumonia as severe pneumonia or very severe disease requiring urgent referral?",
+    "ground_truth": "General danger signs include: not able to drink, persistent vomiting, convulsions, lethargic or unconscious, stridor in a calm child, or severe malnutrition.",
+    "relevant_ids": ["doc_6"]
+  },
+  {
+    "question": "Is a three-day course of amoxicillin as effective as a five-day course for treating fast breathing pneumonia in children?",
+    "ground_truth": "Yes. A systematic review of three randomized controlled trials with over 5,700 participants found no significant difference in clinical cure rates, treatment failure, or relapse rates between three-day and five-day courses, supporting a shorter course of therapy where appropriate, particularly in low HIV prevalence settings.",
+    "relevant_ids": ["doc_7"]
+  },
+  {
+    "question": "What formulation of amoxicillin does WHO recommend as most suitable for treating children with pneumonia?",
+    "ground_truth": "WHO recommends 'Flexible Solid Oral Dosage' forms, such as dispersible tablets, as the optimum formulation for children's oral medicines, since they have better stability and shelf life than liquid formulations, are less bulky to ship and store, and reduce dosing inaccuracies compared to liquids or split adult tablets.",
+    "relevant_ids": ["doc_8"]
+  }
+]
+
